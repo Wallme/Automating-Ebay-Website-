@@ -84,37 +84,7 @@ class Testsample():
             print(handle)
 
 
-        #driver.close()
-        #time.sleep(3)
-        #driver.back()
-
-
-        #selecting specifications
-
-        # drp = Select(driver.find_element(By.ID,"x-msku__select-box-1000"))
-        # time.sleep(4)
-        # drp.select_by_visible_text('For Samsung Galaxy A73 5G')
-        # time.sleep(4)
-        # drp2 = Select(driver.find_element(By.ID,'x-msku__select-box-1001'))
-        # time.sleep(4)
-        # drp2.select_by_visible_text('Case Only')
-        # time.sleep(4)
-        # drp3 = Select(driver.find_element(By.ID,'x-msku__select-box-1002'))
-        # time.sleep(4)
-        # drp3.select_by_visible_text('Black')
-        # time.sleep(4)
-
-
-
-
-
-        #Adding an item to cart using Xpath :
-        # driver.find_element(By.XPATH,"//span[contains(text(),'Add to cart')]").click()
-        # time.sleep(4)
-        # driver.find_element(By.XPATH,"//a[@href='javascript:;']").click()
-        # time.sleep(4)
-
-        #VIEWING TE CART
+        #VIEWING THE CART
         newHandle = handles[1]
         driver.switch_to.window(newHandle)
         addinp = driver.find_element(By.XPATH, "//input[@id='gh-ac']").click()
@@ -157,20 +127,6 @@ class Testsample():
 
 
 
-#SEARCH ANY ONE OF THE MOBILE PRODUCT AND ADD TO THE CART....(USING ID LOCATORS MOSTLY SHOULD BE DONE)
-
-
-
-
-
-
-#DISPLAY THE ITEM IN THE CART....(USING ID LOCATORS MOSTLY SHOULD BE DONE)
-
-#DISPLAY THE LIST OF THE ORDERS MADE SINCE 2015.....(THIS CAN BE IGNORED)....(USING ID LOCATORS MOSTLY SHOULD BE DONE)
-
-#LOGOUT OF THE PORTAL....(USING ID LOCATORS MOSTLY SHOULD BE DONE)
-
-#TEST CASES USING TESTNG/PYTEST.....(USING ID LOCATORS MOSTLY SHOULD BE DONE)
 
 
 
